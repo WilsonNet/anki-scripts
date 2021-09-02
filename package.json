@@ -1,0 +1,22 @@
+{
+  "name": "anki-scripts",
+  "version": "1.0.0",
+  "description": "This is a simple Anki script that allows me to watch the \"collection.media\" folder \r for new sound files and copy the name to clipboard.",
+  "main": "watch-sounds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilsonNet/anki-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilsonNet/anki-scripts/issues"
+  },
+  "homepage": "https://github.com/WilsonNet/anki-scripts#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0"
+  }
+}
