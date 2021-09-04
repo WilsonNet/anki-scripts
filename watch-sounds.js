@@ -7,6 +7,8 @@ fs.watch(
   (eventType, filename) => {
     console.log(eventType)
     console.log(filename)
-    clipboardy.writeSync(`[sound:${filename}]`)
+    if (eventType === 'rename') {
+      clipboardy.writeSync(`[sound:${filename}]`)
+    }
   },
 )
